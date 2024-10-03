@@ -1,0 +1,226 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Nunito";
+}
+
+header {
+    background-image: url('./img/bg-masthead.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #8e8e8e;
+    
+}
+
+.navItem {
+    color: #8e8e8e;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    border: none;
+    padding: 15px 30px;
+    background-color: #64a19d;
+    color: white;
+
+}
+
+.full-screen-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    color: #ffffff;
+    height: 100vh;
+    padding: 40px;
+    box-sizing: border-box;
+    padding-bottom: 0;
+}
+
+.content {
+    text-align: center;
+}
+
+.bottom-image {
+    width: 80%; 
+}
+
+.main-container {
+    width: 100%; 
+    padding: 100px;
+}
+
+.main-container {
+    padding: 90px;
+}
+
+.image-container {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.bg-image {
+    background-image: url('./img/bg-signup.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    text-align: center;
+}
+
+.subscribe-section {
+    position: relative;
+    text-align: center;
+    padding: 100px 15px;
+    margin: 50px auto;
+    max-width: 600px; 
+}
+.subscribe-section h2 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+.subscribe-section input {
+    width: 70%; 
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px; 
+}
+.subscribe-section button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3eb0a1;
+    color: white;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #000; 
+    color: #fff; 
+    padding: 40px 0;
+}
+
+.footer .col {
+    text-align: center;
+    padding: 20px;
+}
+
+.footer h5 {
+    margin-bottom: 15px;
+}
+.grid-item {
+    height: 300px; 
+}
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.bg-text {
+    background-color: #f0f0f0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #333;
+}
+.images{
+    padding: 100px;
+}
+
+.text{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.gridImgs{
+    padding: 30px;
+}
+.box {
+    border: 1px solid #000; 
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 5px; 
+    text-align: center;
+}
+.mainTBox{
+    color: black;
+}
+.subTBox{
+    color: #777;
+}
+.text-center {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+  }
+  
+  .text-center i a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;  
+    height: 50px; 
+    border-radius: 50%; 
+    background-color: #333; 
+    color: #fff; 
+    font-size: 20px; 
+    text-decoration: none; 
+  }
+  
+  .text-center i a:hover {
+    background-color: #555; 
+  }
+  
