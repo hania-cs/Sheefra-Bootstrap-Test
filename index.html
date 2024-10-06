@@ -8,7 +8,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css" rel="stylesheet">
 
 
         <title>Sheefra Bootstrap Test</title>
@@ -24,7 +23,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
+                        <li class="nav-item ">
                             <a class="nav-link" href="#">About</a>
                         </li>
                         <li class="nav-item">
@@ -38,7 +37,7 @@
             </div>
         </nav>
 
-        <div class="hero-content" style="margin-top: 56px;"> <!-- Adjust margin-top as needed -->
+        <div class="hero-content" style="margin-top: 56px;">
             <h1>THE TEST!</h1>
             <p>Responsive, one page Bootstrap to test what <br>you learned and your skills</p>
             <a href="#contact" class="btn">Get Started</a>
@@ -72,29 +71,54 @@
         </div>
     </div>
     <div class="container images">
-        <div class="row no-gutters g-0">
+
+        <div class="row no-gutters g-0 d-none d-md-flex"> 
             <div class="col-md-6 grid-item">
-                <img src="./img/demo-image-01.jpg" alt="Misty">
+                <img src="./img/demo-image-01.jpg" alt="Misty" class="img-fluid">
             </div>
-            <div class="col-md-6 grid-item text ">
+            <div class="col-md-6 grid-item text" style="color: white; text-align: center;">
                 <h5>Misty</h5>
                 <p>An example of where you can put an image of a project, or anything else, along with a description.</p>
             </div>
         </div>
-        <div class="row no-gutters g-0">
-            <div class="col-md-6 grid-item text">
+        <div class="row no-gutters g-0 d-none d-md-flex"> 
+            <div class="col-md-6 grid-item text" style="color: white; text-align: center;">
                 <h5>Mountains</h5>
                 <p>Another example of a project with its respective description. These sections work well responsively as well!</p>
-                
             </div>
             <div class="col-md-6 grid-item">
-                <img src="./img/demo-image-02.jpg" alt="Mountain">
+                <img src="./img/demo-image-02.jpg" alt="Mountain" class="img-fluid">
             </div>
         </div>
-                
-       
+    
+        <div class="row no-gutters g-0 d-md-none"> 
+            <div class="col-12 grid-item">
+                <img src="./img/demo-image-01.jpg" alt="Misty" class="img-fluid">
+                <div class="text" style="color: white; text-align: center; margin-top: 10px;">
+                    <h5>Misty</h5>
+                    <p>An example of where you can put an image of a project, or anything else, along with a description.</p>
+                </div>
+            </div>
+            <div class="col-12 grid-item" style="margin-top: 20px;">
+                <img src="./img/demo-image-02.jpg" alt="Mountain" class="img-fluid">
+                <div class="text" style="color: white; text-align: center; margin-top: 10px;">
+                    <h5>Mountains</h5>
+                    <p>Another example of a project with its respective description. These sections work well responsively as well!</p>
+                </div>
+            </div>
+        </div>
     </div>
-
+    
+    <div class="bg-image" id="contact">
+        <div class="subscribe-section">
+            <h2>Subscribe to receive updates!</h2>
+            <div class="d-flex justify-content-center">
+                <input type="email" placeholder="Enter email address..." aria-label="Email address">
+                <button type="button">Notify Me!</button>
+            </div>
+        </div>
+    </div>
+    
     <div class="bg-image" id="contact">
         <div class="subscribe-section">
             <h2>Subscribe to receive updates!</h2>
