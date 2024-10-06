@@ -224,3 +224,13 @@ ul {
   .text-center i a:hover {
     background-color: #555; 
   }
+  @media (max-width: 990px) {
+    /* Styles for mobile view */
+    .navbar-nav{
+        display: flex;
+        align-items:flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
