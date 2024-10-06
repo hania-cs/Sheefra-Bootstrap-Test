@@ -61,17 +61,18 @@ ul {
 
 }
 
-.full-screen-container {
+.ipadDiv {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     background-color: #121212;
     color: #ffffff;
-    height: 100vh;
+    height: auto;
     padding: 40px;
     box-sizing: border-box;
     padding-bottom: 0;
+    width: 100%;
 }
 
 .content {
@@ -223,4 +224,3 @@ ul {
   .text-center i a:hover {
     background-color: #555; 
   }
-  
