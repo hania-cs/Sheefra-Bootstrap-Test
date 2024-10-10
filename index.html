@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+        <title>Sheefra Bootstrap Test</title>
+</head>
+<body>
+    <header class="text-center">
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Bootstrap Test</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span>Menu</span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero-content" style="margin-top: 56px;">
+            <h1>THE TEST!</h1>
+            <p>Responsive, one page Bootstrap to test what <br>you learned and your skills</p>
+            <a href="#contact" class="btn">Get Started</a>
+        </div>
+    </header>
+
+    <div class="container-fluid text-center ipadDiv">
+        <h1 class="mb-4">Built with Bootstrap 5</h1>
+        <p class="mb-4">This is a test to see if you have learned Bootstrap. You can check your progress by visiting 
+          <a href="#" class="text-info">the <br> preview page</a>.
+          Bootstrap is a powerful framework, and mastering it will help you in many projects, <br>both personal and commercial.
+        </p>
+        <img src="./img/ipad.png" alt="Preview Image" class="img-fluid mt-4">
+      </div>
+      
+      
+      
+    
+      <div class="container shore" id="projects">
+        <div class="row">
+            <div class="col-md-8 p-0 mobile-full-width">
+                <img src="./img/bg-masthead.jpg" class="img-fluid shoreline" alt="Shoreline Image">
+            </div>
+            <div class="col-md-4 text-container">
+                <h2>Shoreline</h2>
+                <p>Grayscale is open source and MIT licensed. <br>This means you can use it for any project - <br> even commercial projects!  Download it, <br>customize it, and publish your website!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container images">
+        <div class="row no-gutters g-0 d-none d-md-flex">
+            <div class="col-md-6 grid-item">
+                <img src="./img/demo-image-01.jpg" alt="Misty" class="img-fluid">
+            </div>
+            <div class="col-md-6 grid-item text" style="color: white; text-align: center;">
+                <h5>Misty</h5>
+                <p>An example of where you can put an image of a project, or anything else, along with a description.</p>
+            </div>
+        </div>
+        <div class="row no-gutters g-0 d-none d-md-flex pb-0">
+            <div class="col-md-6 grid-item text" style="color: white; text-align: center;">
+                <h5>Mountains</h5>
+                <p>Another example of a project with its respective description. These sections work well responsively as well!</p>
+            </div>
+            <div class="col-md-6 grid-item">
+                <img src="./img/demo-image-02.jpg" alt="Mountain" class="img-fluid">
+            </div>
+        </div>
+        <div class="row no-gutters g-0 d-md-none">
+            <div class="col-12 grid-item">
+                <img src="./img/demo-image-01.jpg" alt="Misty" class="img-fluid mobile-image">
+                <div class="text" style="color: white; text-align: center; margin-top: 10px;">
+                    <h5>Misty</h5>
+                    <p>An example of where you can put an image of <br>a project, or anything else, along with a <br>description.</p>
+                </div>
+            </div>
+            <div class="col-12 grid-item" style="margin-top: 20px;">
+                <img src="./img/demo-image-02.jpg" alt="Mountain" class="img-fluid mobile-image">
+                <div class="text" style="color: white; text-align: center; margin-top: 10px;">
+                    <h5>Mountains</h5>
+                    <p>Another example of a project with its <br> respective description. These sections work <br>well responsively as well!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   
+    
+    
+    <div class="bg-image" id="contact">
+        <div class="subscribe-section">
+            <h2>Subscribe to receive updates!</h2>
+            <div class="d-flex justify-content-center sub">
+                <input type="email" placeholder="Enter email address..." aria-label="Email address">
+                <button class="notBtn" type="button">Notify Me!</button>
+            </div>
+        </div>
+    </div>
+    
+  
+  
+    <footer class="footer">
+        <div class="container">
+            <div class="row contInfo">
+                <div class="col-md-4">
+                    <div class="box">
+                        <h5 class="mainTBox">Address</h5>
+                        <p class="subTBox">4923 Market Street, Orlando FL</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box">
+                        <h5 class="mainTBox">Email</h5>
+                        <p class="subTBox"><a href="mailto:hello@yourdomain.com" style="color: #3eb0a1;">hello@yourdomain.com</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box">
+                        <h5 class="mainTBox">Phone</h5>
+                        <p class="subTBox">+1 (859) 903-8382</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row social-icons">
+                <div class="col text-center">
+
+                   
+                    <i> <a href="#" class="fab fa-facebook-f"></a></i>
+                    <i> <a href="#" class="fab fa-twitter"></a></i>
+                    <i> <a href="#" class="fab fa-github"></a></i>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>Copyright &copy; Your Website 2023</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
