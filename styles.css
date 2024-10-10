@@ -203,6 +203,7 @@ ul {
 .subTBox{
     color: #777;
 }
+
 .text-center {
     display: flex;
     justify-content: center;
@@ -225,16 +226,15 @@ ul {
   .text-center i a:hover {
     background-color: #555; 
   }
-  @media (max-width: 990px) {
-    .navbar-nav{
-        display: flex;
-        align-items:flex-start;
-        justify-content: center;
-        flex-direction: column;
-        gap: 8px;
-    }
+
+.shoreline{
+    width: 800px;
 }
-@media (max-width: 768px) { 
+.shore{
+    margin-top: 100px;
+}
+
+@media (max-width: 767px) {
     .grid-item {
         margin-bottom: 150px; 
     }
@@ -245,29 +245,6 @@ ul {
     .text {
         margin-top: 0 !important;
     }
-}
-@media (max-width: 767px) {
-   
-    .mobile-full-width img {
-        width: 100vw;
-        max-width: 500px;
-        height: auto;
-        
-        padding: 15px;
-        
-    }
-    .text-container {
-        padding: 20px;
-    }
-}
-.shoreline{
-    width: 800px;
-}
-.shore{
-    margin-top: 100px;
-}
-
-@media (max-width: 767px) {
     .container.images {
         padding-left: 0;
         padding-right: 0;
@@ -285,5 +262,32 @@ ul {
         padding-right: 15px;
         margin-left: 15px;
         margin-right: 15px;
+    }
+    .mobile-full-width img {
+        width: 100vw;
+        max-width: 500px;
+        height: auto;
+        
+        padding: 15px;
+        
+    }
+    .text-container {
+        padding: 20px;
+    }
+    .sub{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media (max-width: 990px) {
+    .navbar-nav{
+        display: flex;
+        align-items:flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
     }
 }
