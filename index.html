@@ -47,8 +47,8 @@
     <div class="container-fluid text-center ipadDiv">
         <h1 class="mb-4">Built with Bootstrap 5</h1>
         <p class="mb-4">This is a test to see if you have learned Bootstrap. You can check your progress by visiting 
-          <a href="#" class="text-info">the preview page</a>.
-          Bootstrap is a powerful framework, and mastering it will help you in many projects, both personal and commercial.
+          <a href="#" class="text-info">the <br> preview page</a>.
+          Bootstrap is a powerful framework, and mastering it will help you in many projects, <br>both personal and commercial.
         </p>
         <img src="./img/ipad.png" alt="Preview Image" class="img-fluid mt-4">
       </div>
@@ -89,21 +89,44 @@
         </div>
         <div class="row no-gutters g-0 d-md-none">
             <div class="col-12 grid-item">
-                <img src="./img/demo-image-01.jpg" alt="Misty" class="img-fluid">
+                <img src="./img/demo-image-01.jpg" alt="Misty" class="img-fluid mobile-image">
                 <div class="text" style="color: white; text-align: center; margin-top: 10px;">
                     <h5>Misty</h5>
-                    <p>An example of where you can put an image of a project, or anything else, along with a description.</p>
+                    <p>An example of where you can put an image of <br>a project, or anything else, along with a <br>description.</p>
                 </div>
             </div>
             <div class="col-12 grid-item" style="margin-top: 20px;">
-                <img src="./img/demo-image-02.jpg" alt="Mountain" class="img-fluid">
+                <img src="./img/demo-image-02.jpg" alt="Mountain" class="img-fluid mobile-image">
                 <div class="text" style="color: white; text-align: center; margin-top: 10px;">
                     <h5>Mountains</h5>
-                    <p>Another example of a project with its respective description. These sections work well responsively as well!</p>
+                    <p>Another example of a project with its <br> respective description. These sections work <br>well responsively as well!</p>
                 </div>
             </div>
         </div>
     </div>
+    
+    <style>
+        @media (max-width: 767px) {
+            .container.images {
+                padding-left: 0;
+                padding-right: 0;
+                max-width: none;
+                width: 100%;
+            }
+            .mobile-image {
+                width: 100%;
+                max-width: none;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .grid-item .text {
+                padding-left: 15px;
+                padding-right: 15px;
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+        }
+    </style>
     
     
     <div class="bg-image" id="contact">
