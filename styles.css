@@ -246,3 +246,23 @@ ul {
         margin-top: 0 !important;
     }
 }
+@media (max-width: 767px) {
+   
+    .mobile-full-width img {
+        width: 100vw;
+        max-width: 500px;
+        height: auto;
+        
+        padding: 15px;
+        
+    }
+    .text-container {
+        padding: 20px;
+    }
+}
+.shoreline{
+    width: 800px;
+}
+.shore{
+    margin-top: 100px;
+}
